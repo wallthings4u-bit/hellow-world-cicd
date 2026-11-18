@@ -3,9 +3,8 @@ name: "Hello World"
 on: [push]
 
 jobs:
- sample:
- name: Hello world job
- runs-on: ubuntu-latest
- steps:
-  - run: echo "Hello World !"
-   
+  sample:
+    name: Hello world job
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello World !"
